@@ -14,6 +14,22 @@
 		73DB96A926EB0F0600C6F26A /* AvitoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96A726EB0F0600C6F26A /* AvitoList.xcdatamodeld */; };
 		73DB96AB26EB0F0800C6F26A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73DB96AA26EB0F0800C6F26A /* Assets.xcassets */; };
 		73DB96AE26EB0F0800C6F26A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DB96AC26EB0F0800C6F26A /* LaunchScreen.storyboard */; };
+		73DB96B626EB1BC100C6F26A /* ViewControllerAsTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96B526EB1BC100C6F26A /* ViewControllerAsTableViewDelegate.swift */; };
+		73DB96B826EB1C0D00C6F26A /* ViewControlllerAsTableViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96B726EB1C0D00C6F26A /* ViewControlllerAsTableViewDatasource.swift */; };
+		73DB96BA26EB313800C6F26A /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96B926EB313800C6F26A /* EmployeeCell.swift */; };
+		73DB96BE26EB402700C6F26A /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96BD26EB402700C6F26A /* SkillsView.swift */; };
+		73DB96C026EB40A300C6F26A /* SkillLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96BF26EB40A300C6F26A /* SkillLabel.swift */; };
+		73DB96C826EB4F6B00C6F26A /* LoadingAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96C726EB4F6B00C6F26A /* LoadingAlertView.swift */; };
+		73DB96CA26EB4FB500C6F26A /* FailAlertContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96C926EB4FB500C6F26A /* FailAlertContent.swift */; };
+		73DB96CC26EB5C5900C6F26A /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96CB26EB5C5900C6F26A /* AlertView.swift */; };
+		73DB96D026EB988600C6F26A /* AvitoNetworkingServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96CF26EB988600C6F26A /* AvitoNetworkingServices.swift */; };
+		73DB96D326EB9AC800C6F26A /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96D226EB9AC800C6F26A /* NetworkingError.swift */; };
+		73DB96D526EB9B3C00C6F26A /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96D426EB9B3C00C6F26A /* Employee.swift */; };
+		73DB96D826EBA6FD00C6F26A /* CompanyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96D726EBA6FD00C6F26A /* CompanyService.swift */; };
+		73DB96DA26EBB02F00C6F26A /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96D926EBB02F00C6F26A /* Company.swift */; };
+		73DB96DC26EBBBC100C6F26A /* AvitoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96DB26EBBBC100C6F26A /* AvitoResponse.swift */; };
+		73DB96DE26EBBE8900C6F26A /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96DD26EBBE8900C6F26A /* EmployeeViewModel.swift */; };
+		73DB96E126EC93FA00C6F26A /* ViewControlllerAsEmployeeViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB96E026EC93FA00C6F26A /* ViewControlllerAsEmployeeViewModelDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,22 @@
 		73DB96AA26EB0F0800C6F26A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73DB96AD26EB0F0800C6F26A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73DB96AF26EB0F0800C6F26A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73DB96B526EB1BC100C6F26A /* ViewControllerAsTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAsTableViewDelegate.swift; sourceTree = "<group>"; };
+		73DB96B726EB1C0D00C6F26A /* ViewControlllerAsTableViewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlllerAsTableViewDatasource.swift; sourceTree = "<group>"; };
+		73DB96B926EB313800C6F26A /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		73DB96BD26EB402700C6F26A /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
+		73DB96BF26EB40A300C6F26A /* SkillLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillLabel.swift; sourceTree = "<group>"; };
+		73DB96C726EB4F6B00C6F26A /* LoadingAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAlertView.swift; sourceTree = "<group>"; };
+		73DB96C926EB4FB500C6F26A /* FailAlertContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailAlertContent.swift; sourceTree = "<group>"; };
+		73DB96CB26EB5C5900C6F26A /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		73DB96CF26EB988600C6F26A /* AvitoNetworkingServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoNetworkingServices.swift; sourceTree = "<group>"; };
+		73DB96D226EB9AC800C6F26A /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		73DB96D426EB9B3C00C6F26A /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		73DB96D726EBA6FD00C6F26A /* CompanyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyService.swift; sourceTree = "<group>"; };
+		73DB96D926EBB02F00C6F26A /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		73DB96DB26EBBBC100C6F26A /* AvitoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoResponse.swift; sourceTree = "<group>"; };
+		73DB96DD26EBBE8900C6F26A /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		73DB96E026EC93FA00C6F26A /* ViewControlllerAsEmployeeViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlllerAsEmployeeViewModelDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +90,14 @@
 		73DB969D26EB0F0600C6F26A /* AvitoList */ = {
 			isa = PBXGroup;
 			children = (
+				73DB96C126EB4DA900C6F26A /* Models */,
+				73DB96C526EB4E9C00C6F26A /* Views */,
+				73DB96C226EB4DBC00C6F26A /* ViewModels */,
+				73DB96C426EB4DDD00C6F26A /* DataSourceServices */,
+				73DB96C326EB4DC600C6F26A /* Controllers */,
 				73DB969E26EB0F0600C6F26A /* AppDelegate.swift */,
 				73DB96A026EB0F0600C6F26A /* SceneDelegate.swift */,
-				73DB96A226EB0F0600C6F26A /* ViewController.swift */,
+				73DB96DF26EC8F7100C6F26A /* tests */,
 				73DB96A426EB0F0600C6F26A /* Main.storyboard */,
 				73DB96AA26EB0F0800C6F26A /* Assets.xcassets */,
 				73DB96AC26EB0F0800C6F26A /* LaunchScreen.storyboard */,
@@ -68,6 +105,81 @@
 				73DB96A726EB0F0600C6F26A /* AvitoList.xcdatamodeld */,
 			);
 			path = AvitoList;
+			sourceTree = "<group>";
+		};
+		73DB96C126EB4DA900C6F26A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73DB96D426EB9B3C00C6F26A /* Employee.swift */,
+				73DB96D926EBB02F00C6F26A /* Company.swift */,
+				73DB96DB26EBBBC100C6F26A /* AvitoResponse.swift */,
+				73DB96D126EB9AB400C6F26A /* Errors */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		73DB96C226EB4DBC00C6F26A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				73DB96DD26EBBE8900C6F26A /* EmployeeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		73DB96C326EB4DC600C6F26A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				73DB96A226EB0F0600C6F26A /* ViewController.swift */,
+				73DB96C626EB4EB400C6F26A /* Extensions */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		73DB96C426EB4DDD00C6F26A /* DataSourceServices */ = {
+			isa = PBXGroup;
+			children = (
+				73DB96CF26EB988600C6F26A /* AvitoNetworkingServices.swift */,
+				73DB96D726EBA6FD00C6F26A /* CompanyService.swift */,
+			);
+			path = DataSourceServices;
+			sourceTree = "<group>";
+		};
+		73DB96C526EB4E9C00C6F26A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73DB96BF26EB40A300C6F26A /* SkillLabel.swift */,
+				73DB96BD26EB402700C6F26A /* SkillsView.swift */,
+				73DB96B926EB313800C6F26A /* EmployeeCell.swift */,
+				73DB96CB26EB5C5900C6F26A /* AlertView.swift */,
+				73DB96C726EB4F6B00C6F26A /* LoadingAlertView.swift */,
+				73DB96C926EB4FB500C6F26A /* FailAlertContent.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73DB96C626EB4EB400C6F26A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73DB96B526EB1BC100C6F26A /* ViewControllerAsTableViewDelegate.swift */,
+				73DB96B726EB1C0D00C6F26A /* ViewControlllerAsTableViewDatasource.swift */,
+				73DB96E026EC93FA00C6F26A /* ViewControlllerAsEmployeeViewModelDelegate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73DB96D126EB9AB400C6F26A /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				73DB96D226EB9AC800C6F26A /* NetworkingError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		73DB96DF26EC8F7100C6F26A /* tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +254,24 @@
 			files = (
 				73DB96A326EB0F0600C6F26A /* ViewController.swift in Sources */,
 				73DB96A926EB0F0600C6F26A /* AvitoList.xcdatamodeld in Sources */,
+				73DB96BA26EB313800C6F26A /* EmployeeCell.swift in Sources */,
+				73DB96BE26EB402700C6F26A /* SkillsView.swift in Sources */,
+				73DB96B626EB1BC100C6F26A /* ViewControllerAsTableViewDelegate.swift in Sources */,
+				73DB96D826EBA6FD00C6F26A /* CompanyService.swift in Sources */,
+				73DB96D026EB988600C6F26A /* AvitoNetworkingServices.swift in Sources */,
+				73DB96CC26EB5C5900C6F26A /* AlertView.swift in Sources */,
 				73DB969F26EB0F0600C6F26A /* AppDelegate.swift in Sources */,
+				73DB96B826EB1C0D00C6F26A /* ViewControlllerAsTableViewDatasource.swift in Sources */,
+				73DB96DC26EBBBC100C6F26A /* AvitoResponse.swift in Sources */,
 				73DB96A126EB0F0600C6F26A /* SceneDelegate.swift in Sources */,
+				73DB96D326EB9AC800C6F26A /* NetworkingError.swift in Sources */,
+				73DB96E126EC93FA00C6F26A /* ViewControlllerAsEmployeeViewModelDelegate.swift in Sources */,
+				73DB96DA26EBB02F00C6F26A /* Company.swift in Sources */,
+				73DB96DE26EBBE8900C6F26A /* EmployeeViewModel.swift in Sources */,
+				73DB96C026EB40A300C6F26A /* SkillLabel.swift in Sources */,
+				73DB96CA26EB4FB500C6F26A /* FailAlertContent.swift in Sources */,
+				73DB96D526EB9B3C00C6F26A /* Employee.swift in Sources */,
+				73DB96C826EB4F6B00C6F26A /* LoadingAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
